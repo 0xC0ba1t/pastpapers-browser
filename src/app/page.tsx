@@ -670,7 +670,7 @@ export default function FileBrowser() {
 
         {filteredItems.length === 0 && (
           <div className="text-center py-16">
-            <p className="text-muted-foreground text-lg">No files found</p>
+            <p className="text-muted-foreground text-lg">Loading files!</p>
             {hasActiveFilters && (
               <Button variant="outline" onClick={resetFilters} className="mt-4">
                 Clear Filters
