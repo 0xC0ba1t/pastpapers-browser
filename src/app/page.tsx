@@ -1,6 +1,6 @@
 "use client";
 import React, { Suspense } from "react";
-import FileBrowserClient from "@/components/FileBroswerClient";
+import FileBrowserClient from "@/components/FileBrowserClient";
 
 export default function Page() {
   return (
