@@ -6,7 +6,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "IGCSE Past Papers Browser",
+  title: "IGCSE Past Papers",
   description: "Browse and access IGCSE past examination papers",
 };
 
