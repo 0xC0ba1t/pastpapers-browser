@@ -187,7 +187,7 @@ export default function FileBrowserClient() {
     }
 
     setTestResults({ filesInTree: filesInTree.size, csvFiles: csvFiles.length, missing: missing.length });
-    setShowTestResults(true);
+    setShowTestResults(false);
 
     return { filesInTree: filesInTree.size, csvFiles: csvFiles.length, missing: missing.length };
   };
